@@ -4,7 +4,7 @@ if (empty($_POST)){
     $_POST = '';
 }
 //加密算法开始
-$key = 'ht.acgbuster.com';
+$key = 'asdasdasdwer234';
 function encrypt($string,$operation,$key=''){
     $key=md5($key);
     $key_length=strlen($key);
@@ -43,12 +43,12 @@ function encrypt($string,$operation,$key=''){
 ?>
 <!DOCTYPE html>
 <html>
-<!--面码的buster绅士向保留所有权利，未经同意，不得仿制-->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="tools,pan.baidu.com,百度网盘,加密,解密">
-    <meta name="author" content="acgbuster">
+    <meta name="author" content="">
     <!--new-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
     <link rel="stylesheet" href="0w0.css" >
@@ -57,14 +57,14 @@ function encrypt($string,$operation,$key=''){
 <body>
 <!--NavBar Start -->
 <nav class="navbar navbar-expand-md navbar-dark fixed-top " style="background-color: #4caf50">
-    <a class="navbar-brand" href="https://ht.acgbuster.com" target="_blank">面码的buster工具箱</a>
+    <a class="navbar-brand" href="" target="_blank"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <button class="nav-link btn-raised btn btn-info" href="https://ht.acgbuster.com" target="_blank">主页<span class="sr-only">(current)</span></>
+                <button class="nav-link btn-raised btn btn-info" href="" target="_blank">主页<span class="sr-only">(current)</span></>
             </li>&nbsp;&nbsp;&nbsp;
             <li class="nav-item active">
                 <button class="nav-link btn btn-danger btn-raised"  data-toggle="modal" data-target="#donate" rel="https://0w0.tn/#">捐助我们</button>
